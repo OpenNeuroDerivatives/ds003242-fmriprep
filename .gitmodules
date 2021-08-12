@@ -3,3 +3,7 @@
 	url = /scratch1/03201/jbwexler/openneuro_derivatives_tests/containers
 	datalad-id = b02e63c2-62c1-11e9-82b0-52540040489c
 	datalad-url = /scratch1/03201/jbwexler/openneuro_derivatives_tests/containers
+[submodule "sourcedata/ds003242"]
+	path = sourcedata/ds003242
+	url = /scratch1/03201/jbwexler/openneuro_derivatives_tests/raw/ds003242
+	datalad-id = 1188523a-3d8d-4eb5-bc8c-601a24da1b9d

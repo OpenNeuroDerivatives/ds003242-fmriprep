@@ -1,1 +1,19 @@
-../../../../.git/annex/objects/Zv/2m/MD5E-s1948--082906abe574b5ce196cee7d188f4694.21/MD5E-s1948--082906abe574b5ce196cee7d188f4694.21
+[ReproMan] pre-command...
+[ReproMan] executing command code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep participant --participant-label 'SAXSISO11b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO11b' -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+[ReproMan] ... within /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+210825-09:21:54,34 nipype.workflow IMPORTANT:
+	 
+    Running fMRIPREP version 20.2.3:
+      * BIDS dataset path: /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep/sourcedata/ds003242.
+      * Participant list: ['SAXSISO11b'].
+      * Run identifier: 20210825-092029_6cfadf5f-bd67-4f8a-88e3-53d29346d942.
+      * Output spaces: MNI152NLin2009cAsym:res-2 anat func fsaverage:den-10k.
+      * Pre-run FreeSurfer's SUBJECTS_DIR: /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep/sourcedata/freesurfer.
+210825-09:22:02,984 nipype.workflow INFO:
+	 No single-band-reference found for sub-SAXSISO11b_task-CIC_run-001_bold.nii.gz.
+210825-09:22:04,457 nipype.interface INFO:
+	 We advise you to upgrade DIPY version. This upgrade will open access to more function
+210825-09:22:04,459 nipype.interface INFO:
+	 We advise you to upgrade DIPY version. This upgrade will open access to more function
+210825-09:22:04,460 nipype.interface INFO:
+	 We advise you to upgrade DIPY version. This upgrade will open access to more models

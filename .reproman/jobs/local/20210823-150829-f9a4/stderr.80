@@ -1,1 +1,26 @@
-../../../../.git/annex/objects/8J/zp/MD5E-s4636--af0933b882a55cabbd1b73d741741a50.80/MD5E-s4636--af0933b882a55cabbd1b73d741741a50.80
+Downloading https://templateflow.s3.amazonaws.com/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_T1w.nii.gz
+  0%|          | 0.00/32.4M [00:00<?, ?B/s]  0%|          | 86.0k/32.4M [00:00<00:48, 665kB/s]  3%|▎         | 887k/32.4M [00:00<00:08, 3.83MB/s]  7%|▋         | 2.38M/32.4M [00:00<00:03, 8.15MB/s] 13%|█▎        | 4.20M/32.4M [00:00<00:02, 9.40MB/s] 26%|██▌       | 8.39M/32.4M [00:01<00:02, 8.79MB/s] 39%|███▉      | 12.6M/32.4M [00:01<00:03, 6.45MB/s] 52%|█████▏    | 16.8M/32.4M [00:02<00:03, 4.97MB/s] 65%|██████▍   | 21.0M/32.4M [00:03<00:02, 4.70MB/s] 78%|███████▊  | 25.2M/32.4M [00:04<00:01, 4.86MB/s] 91%|█████████ | 29.4M/32.4M [00:05<00:00, 5.12MB/s]100%|██████████| 32.4M/32.4M [00:05<00:00, 5.85MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz
+  0%|          | 0.00/1.75M [00:00<?, ?B/s]  5%|▍         | 87.0k/1.75M [00:00<00:02, 639kB/s] 48%|████▊     | 836k/1.75M [00:00<00:00, 3.57MB/s]100%|██████████| 1.75M/1.75M [00:00<00:00, 5.55MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-brain_mask.nii.gz
+  0%|          | 0.00/29.6k [00:00<?, ?B/s]100%|██████████| 29.6k/29.6k [00:00<00:00, 651kB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_label-brain_probseg.nii.gz
+  0%|          | 0.00/3.93M [00:00<?, ?B/s]  2%|▏         | 87.0k/3.93M [00:00<00:06, 618kB/s] 22%|██▏       | 870k/3.93M [00:00<00:00, 3.51MB/s]100%|██████████| 3.93M/3.93M [00:00<00:00, 10.3MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz
+  0%|          | 0.00/1.75M [00:00<?, ?B/s]  5%|▌         | 91.1k/1.75M [00:00<00:02, 640kB/s] 47%|████▋     | 824k/1.75M [00:00<00:00, 3.99MB/s]100%|██████████| 1.75M/1.75M [00:00<00:00, 5.20MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_desc-std_sphere.surf.gii
+  0%|          | 0.00/4.09M [00:00<?, ?B/s]  2%|▏         | 87.0k/4.09M [00:00<00:06, 634kB/s] 21%|██        | 853k/4.09M [00:00<00:00, 3.51MB/s] 78%|███████▊  | 3.19M/4.09M [00:00<00:00, 11.0MB/s]100%|██████████| 4.09M/4.09M [00:00<00:00, 10.6MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsaverage/tpl-fsaverage_hemi-L_den-164k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/772k [00:00<?, ?B/s] 12%|█▏        | 89.1k/772k [00:00<00:01, 651kB/s]100%|██████████| 772k/772k [00:00<00:00, 3.31MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/772k [00:00<?, ?B/s] 12%|█▏        | 95.2k/772k [00:00<00:00, 707kB/s]100%|██████████| 772k/772k [00:00<00:00, 3.37MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-L_den-32k_sphere.surf.gii
+  0%|          | 0.00/720k [00:00<?, ?B/s] 12%|█▏        | 89.1k/720k [00:00<00:00, 634kB/s]100%|██████████| 720k/720k [00:00<00:00, 3.01MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-R_den-32k_sphere.surf.gii
+  0%|          | 0.00/708k [00:00<?, ?B/s] 12%|█▏        | 86.0k/708k [00:00<00:00, 642kB/s]100%|██████████| 708k/708k [00:00<00:00, 3.11MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_hemi-L_den-32k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/151k [00:00<?, ?B/s] 24%|██▍       | 36.9k/151k [00:00<00:00, 264kB/s]100%|██████████| 151k/151k [00:00<00:00, 801kB/s] 
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_hemi-R_den-32k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/151k [00:00<?, ?B/s] 58%|█████▊    | 87.0k/151k [00:00<00:00, 621kB/s]100%|██████████| 151k/151k [00:00<00:00, 1.07MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-carpet_dseg.nii.gz
+  0%|          | 0.00/451k [00:00<?, ?B/s] 15%|█▌        | 68.6k/451k [00:00<00:00, 521kB/s]100%|██████████| 451k/451k [00:00<00:00, 2.01MB/s]

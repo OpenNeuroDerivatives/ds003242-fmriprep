@@ -1,1 +1,25 @@
-../../../../.git/annex/objects/87/KM/MD5E-s990--0c6d8418bdca87c8c25bbd088b1d9c19/MD5E-s990--0c6d8418bdca87c8c25bbd088b1d9c19
+#!/bin/sh
+
+#SBATCH --output=/scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep/.reproman/jobs/local/20210818-114102-3956/stdout
+#SBATCH --error=/scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep/.reproman/jobs/local/20210818-114102-3956/stderr
+#SBATCH --mail-type=END   # Opts: NONE, BEGIN END, FAIL, REQUEUE, ALL
+#SBATCH --mail-user=jbwexler@tutanota.com
+#SBATCH -A MRI_Data_Analysis
+
+#SBATCH --nodes=24
+#SBATCH --ntasks=96
+#SBATCH --time=48:00:00
+#SBATCH --partition=normal
+
+metadir=/scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep/.reproman/jobs/local/20210818-114102-3956
+
+module load ooops
+module load launcher
+export LAUNCHER_JOB_FILE="$metadir/launcher"
+
+for task_id in $(seq 0 95); do
+    printf "$metadir/runscript %d >$metadir/stdout.%d 2>$metadir/stderr.%d\n" \
+      "$task_id" "$task_id" "$task_id" >>"$LAUNCHER_JOB_FILE"
+done
+
+"$LAUNCHER_DIR"/paramrun

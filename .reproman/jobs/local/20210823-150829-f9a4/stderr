@@ -1,1 +1,50 @@
-../../../../.git/annex/objects/85/z7/MD5E-s2596--dc2e9901ad7380de20d943cbfb25da90/MD5E-s2596--dc2e9901ad7380de20d943cbfb25da90
+WARNING (08/25/21 04:20:14): LAUNCHER_WORKDIR variable not set. Using current directory.
+using /tmp/launcher.3451847.hostlist.szddcbF4 to get hosts
+starting job on c135-084
+starting job on c135-091
+starting job on c135-092
+starting job on c153-014
+starting job on c153-021
+starting job on c153-022
+starting job on c153-141
+starting job on c153-142
+starting job on c153-143
+starting job on c158-133
+starting job on c158-134
+starting job on c158-141
+starting job on c160-171
+starting job on c160-172
+starting job on c160-173
+starting job on c169-194
+starting job on c169-201
+starting job on c169-202
+starting job on c189-164
+starting job on c189-171
+starting job on c189-172
+starting job on c190-104
+starting job on c190-111
+starting job on c190-112
+Warning: Permanently added 'c153-022' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c169-202' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c153-014' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c160-171' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c160-173' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c189-164' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c190-112' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c135-084' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c158-141' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c135-091' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c158-134' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c158-133' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c190-111' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c190-104' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c160-172' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c169-194' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c153-143' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c169-201' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c153-142' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c153-141' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c135-092' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c189-171' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c153-021' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c189-172' (ED25519) to the list of known hosts.

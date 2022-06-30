@@ -1,1 +1,35 @@
-../../../../.git/annex/objects/xx/ZM/MD5E-s4441--367cd5874eb503e953ad30e81aa38387.84/MD5E-s4441--367cd5874eb503e953ad30e81aa38387.84
+Downloading https://templateflow.s3.amazonaws.com/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_T1w.nii.gz
+  0%|          | 0.00/32.4M [00:00<?, ?B/s]  0%|          | 96.3k/32.4M [00:00<00:47, 682kB/s]  3%|▎         | 856k/32.4M [00:00<00:07, 4.16MB/s]  5%|▌         | 1.77M/32.4M [00:00<00:05, 5.20MB/s] 13%|█▎        | 4.20M/32.4M [00:02<00:14, 1.89MB/s] 26%|██▌       | 8.39M/32.4M [00:03<00:09, 2.59MB/s] 39%|███▉      | 12.6M/32.4M [00:04<00:05, 3.39MB/s] 52%|█████▏    | 16.8M/32.4M [00:04<00:04, 3.85MB/s] 65%|██████▍   | 21.0M/32.4M [00:05<00:02, 4.57MB/s] 78%|███████▊  | 25.2M/32.4M [00:06<00:01, 4.94MB/s] 91%|█████████ | 29.4M/32.4M [00:07<00:00, 5.28MB/s]100%|██████████| 32.4M/32.4M [00:07<00:00, 4.60MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz
+  0%|          | 0.00/1.75M [00:00<?, ?B/s]  4%|▍         | 77.8k/1.75M [00:00<00:02, 604kB/s] 48%|████▊     | 844k/1.75M [00:00<00:00, 3.63MB/s]100%|██████████| 1.75M/1.75M [00:00<00:00, 5.63MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz
+  0%|          | 0.00/1.75M [00:00<?, ?B/s]  5%|▍         | 86.0k/1.75M [00:00<00:02, 615kB/s] 47%|████▋     | 817k/1.75M [00:00<00:00, 3.40MB/s]100%|██████████| 1.75M/1.75M [00:00<00:00, 5.28MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_desc-std_sphere.surf.gii
+  0%|          | 0.00/4.09M [00:00<?, ?B/s] 13%|█▎        | 540k/4.09M [00:00<00:00, 4.17MB/s] 65%|██████▍   | 2.66M/4.09M [00:00<00:00, 13.1MB/s]100%|██████████| 4.09M/4.09M [00:00<00:00, 14.8MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/772k [00:00<?, ?B/s] 12%|█▏        | 95.2k/772k [00:00<00:01, 675kB/s]100%|██████████| 772k/772k [00:00<00:00, 3.21MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-L_den-32k_sphere.surf.gii
+  0%|          | 0.00/720k [00:00<?, ?B/s] 12%|█▏        | 88.1k/720k [00:00<00:00, 672kB/s]100%|██████████| 720k/720k [00:00<00:00, 3.21MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-R_den-32k_sphere.surf.gii
+  0%|          | 0.00/708k [00:00<?, ?B/s] 13%|█▎        | 91.1k/708k [00:00<00:00, 654kB/s]100%|██████████| 708k/708k [00:00<00:00, 2.99MB/s]
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/local/miniconda/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/local/miniconda/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/cli/workflow.py", line 82, in build_workflow
+    retval["workflow"] = init_fmriprep_wf()
+  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/workflows/base.py", line 64, in init_fmriprep_wf
+    single_subject_wf = init_single_subject_wf(subject_id)
+  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/workflows/base.py", line 304, in init_single_subject_wf
+    func_preproc_wf = init_func_preproc_wf(bold_file)
+  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/workflows/bold/base.py", line 803, in init_func_preproc_wf
+    repetition_time=metadata['RepetitionTime'])
+  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/workflows/bold/resampling.py", line 638, in init_bold_grayords_wf
+    for hemi in 'LR'
+  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/workflows/bold/resampling.py", line 638, in <listcomp>
+    for hemi in 'LR'
+  File "/usr/local/miniconda/lib/python3.7/site-packages/templateflow/api.py", line 104, in get
+    raise RuntimeError(msg)
+RuntimeError: Could not fetch template files: /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep/code/containers/binds/HOME/.cache/templateflow/tpl-fsLR/tpl-fsLR_hemi-L_den-32k_desc-vaavg_midthickness.shape.gii.

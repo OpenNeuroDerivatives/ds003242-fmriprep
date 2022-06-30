@@ -1,1 +1,18 @@
-../../../../.git/annex/objects/2J/7Z/MD5E-s3474--a82ad95fa5429336d5afaad4d0afe9a4.65/MD5E-s3474--a82ad95fa5429336d5afaad4d0afe9a4.65
+Downloading https://templateflow.s3.amazonaws.com/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_T1w.nii.gz
+  0%|          | 0.00/32.4M [00:00<?, ?B/s]  0%|          | 87.0k/32.4M [00:00<00:50, 638kB/s]  2%|▏         | 561k/32.4M [00:00<00:11, 2.74MB/s]  3%|▎         | 888k/32.4M [00:00<00:11, 2.81MB/s]  5%|▍         | 1.61M/32.4M [00:00<00:06, 4.41MB/s] 11%|█         | 3.54M/32.4M [00:00<00:03, 8.40MB/s] 13%|█▎        | 4.34M/32.4M [00:01<00:13, 2.02MB/s] 26%|██▌       | 8.39M/32.4M [00:03<00:11, 2.10MB/s] 39%|███▉      | 12.6M/32.4M [00:04<00:06, 2.95MB/s] 52%|█████▏    | 16.8M/32.4M [00:05<00:04, 3.60MB/s] 65%|██████▍   | 21.0M/32.4M [00:05<00:02, 4.33MB/s] 78%|███████▊  | 25.2M/32.4M [00:06<00:01, 4.74MB/s] 91%|█████████ | 29.4M/32.4M [00:07<00:00, 5.24MB/s]100%|██████████| 32.4M/32.4M [00:07<00:00, 4.44MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz
+  0%|          | 0.00/1.75M [00:00<?, ?B/s]  5%|▌         | 89.1k/1.75M [00:00<00:02, 661kB/s] 48%|████▊     | 838k/1.75M [00:00<00:00, 3.59MB/s]100%|██████████| 1.75M/1.75M [00:00<00:00, 5.44MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_desc-std_sphere.surf.gii
+  0%|          | 0.00/4.09M [00:00<?, ?B/s]  2%|▏         | 87.0k/4.09M [00:00<00:06, 614kB/s] 21%|██        | 869k/4.09M [00:00<00:00, 3.59MB/s] 81%|████████  | 3.30M/4.09M [00:00<00:00, 11.3MB/s]100%|██████████| 4.09M/4.09M [00:00<00:00, 10.5MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/772k [00:00<?, ?B/s] 11%|█         | 86.0k/772k [00:00<00:01, 640kB/s]100%|██████████| 772k/772k [00:00<00:00, 3.36MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-L_den-32k_sphere.surf.gii
+  0%|          | 0.00/720k [00:00<?, ?B/s] 13%|█▎        | 95.2k/720k [00:00<00:00, 672kB/s]100%|██████████| 720k/720k [00:00<00:00, 2.99MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-R_den-32k_sphere.surf.gii
+  0%|          | 0.00/708k [00:00<?, ?B/s] 13%|█▎        | 89.1k/708k [00:00<00:00, 663kB/s]100%|██████████| 708k/708k [00:00<00:00, 3.10MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_hemi-L_den-32k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/151k [00:00<?, ?B/s] 57%|█████▋    | 86.0k/151k [00:00<00:00, 599kB/s]100%|██████████| 151k/151k [00:00<00:00, 1.04MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_hemi-R_den-32k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/151k [00:00<?, ?B/s] 45%|████▌     | 68.6k/151k [00:00<00:00, 503kB/s]100%|██████████| 151k/151k [00:00<00:00, 1.10MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-carpet_dseg.nii.gz
+  0%|          | 0.00/451k [00:00<?, ?B/s] 19%|█▉        | 87.0k/451k [00:00<00:00, 658kB/s]100%|██████████| 451k/451k [00:00<00:00, 2.02MB/s]

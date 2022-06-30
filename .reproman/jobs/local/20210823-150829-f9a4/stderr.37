@@ -1,1 +1,24 @@
-../../../../.git/annex/objects/7w/Zg/MD5E-s4445--3efd46611ffb6db05e199b2aea48adf3.37/MD5E-s4445--3efd46611ffb6db05e199b2aea48adf3.37
+Downloading https://templateflow.s3.amazonaws.com/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_T1w.nii.gz
+  0%|          | 0.00/32.4M [00:00<?, ?B/s]  0%|          | 87.0k/32.4M [00:00<00:47, 672kB/s]  3%|▎         | 888k/32.4M [00:00<00:08, 3.79MB/s]  9%|▉         | 2.93M/32.4M [00:00<00:03, 8.43MB/s] 13%|█▎        | 4.20M/32.4M [00:00<00:04, 6.51MB/s] 26%|██▌       | 8.39M/32.4M [00:01<00:03, 7.45MB/s] 39%|███▉      | 12.6M/32.4M [00:02<00:03, 5.40MB/s] 52%|█████▏    | 16.8M/32.4M [00:03<00:03, 4.71MB/s] 65%|██████▍   | 21.0M/32.4M [00:04<00:02, 4.69MB/s] 78%|███████▊  | 25.2M/32.4M [00:04<00:01, 4.80MB/s] 91%|█████████ | 29.4M/32.4M [00:05<00:00, 5.28MB/s]100%|██████████| 32.4M/32.4M [00:05<00:00, 5.72MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_label-BS_probseg.nii.gz
+  0%|          | 0.00/447k [00:00<?, ?B/s] 19%|█▉        | 86.0k/447k [00:00<00:00, 617kB/s]100%|██████████| 447k/447k [00:00<00:00, 1.90MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz
+  0%|          | 0.00/1.75M [00:00<?, ?B/s]  5%|▍         | 79.9k/1.75M [00:00<00:02, 622kB/s] 48%|████▊     | 846k/1.75M [00:00<00:00, 3.64MB/s]100%|██████████| 1.75M/1.75M [00:00<00:00, 5.63MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_label-brain_probseg.nii.gz
+  0%|          | 0.00/3.93M [00:00<?, ?B/s]  2%|▏         | 91.1k/3.93M [00:00<00:05, 665kB/s] 22%|██▏       | 874k/3.93M [00:00<00:00, 3.61MB/s]100%|██████████| 3.93M/3.93M [00:00<00:00, 10.5MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz
+  0%|          | 0.00/1.75M [00:00<?, ?B/s]  5%|▍         | 87.0k/1.75M [00:00<00:02, 637kB/s] 49%|████▊     | 852k/1.75M [00:00<00:00, 3.64MB/s]100%|██████████| 1.75M/1.75M [00:00<00:00, 5.45MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_desc-std_sphere.surf.gii
+  0%|          | 0.00/4.09M [00:00<?, ?B/s]  2%|▏         | 87.0k/4.09M [00:00<00:06, 636kB/s] 21%|██        | 852k/4.09M [00:00<00:00, 3.63MB/s] 91%|█████████ | 3.71M/4.09M [00:00<00:00, 13.3MB/s]100%|██████████| 4.09M/4.09M [00:00<00:00, 11.0MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/772k [00:00<?, ?B/s] 10%|█         | 77.8k/772k [00:00<00:01, 583kB/s] 55%|█████▌    | 426k/772k [00:00<00:00, 2.04MB/s]100%|██████████| 772k/772k [00:00<00:00, 3.19MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-L_den-32k_sphere.surf.gii
+  0%|          | 0.00/720k [00:00<?, ?B/s] 12%|█▏        | 89.1k/720k [00:00<00:00, 663kB/s]100%|██████████| 720k/720k [00:00<00:00, 3.16MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-R_den-32k_sphere.surf.gii
+  0%|          | 0.00/708k [00:00<?, ?B/s] 12%|█▏        | 86.0k/708k [00:00<00:01, 615kB/s]100%|██████████| 708k/708k [00:00<00:00, 2.98MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_hemi-L_den-32k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/151k [00:00<?, ?B/s] 57%|█████▋    | 86.0k/151k [00:00<00:00, 627kB/s]100%|██████████| 151k/151k [00:00<00:00, 1.09MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_hemi-R_den-32k_desc-vaavg_midthickness.shape.gii
+  0%|          | 0.00/151k [00:00<?, ?B/s] 59%|█████▉    | 89.1k/151k [00:00<00:00, 639kB/s]100%|██████████| 151k/151k [00:00<00:00, 1.08MB/s]
+Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-carpet_dseg.nii.gz
+  0%|          | 0.00/451k [00:00<?, ?B/s] 19%|█▉        | 87.0k/451k [00:00<00:00, 611kB/s]100%|██████████| 451k/451k [00:00<00:00, 1.89MB/s]

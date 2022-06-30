@@ -1,1 +1,1140 @@
-../../../../.git/annex/objects/Xx/11/MD5E-s77882--b422c44721db82161972ad07b73fca2e.yaml/MD5E-s77882--b422c44721db82161972ad07b73fca2e.yaml
+_command_array:
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO01b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO01b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO01f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO01f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO01s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO01s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO02b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO02b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO02f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO02f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO02s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO02s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO03b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO03b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO03f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO03f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO03s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO03s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO04b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO04b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO04f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO04f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO04s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO04s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO08b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO08b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO08f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO08f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO08s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO08s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO09b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO09b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO09f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO09f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO09s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO09s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO10b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO10b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO10f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO10f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO10s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO10s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO11b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO11b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO11f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO11f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO11s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO11s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO12b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO12b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO12f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO12f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO12s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO12s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO13b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO13b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO13f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO13f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO13s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO13s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO14b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO14b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO14f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO14f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO14s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO14s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO15b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO15b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO15f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO15f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO15s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO15s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO17b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO17b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO17f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO17f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO17s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO17s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO18b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO18b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO18f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO18f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO18s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO18s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO19b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO19b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO19f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO19f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO19s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO19s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO21b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO21b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO21f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO21f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO21s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO21s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO22b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO22b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO22f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO22f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO22s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO22s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO24b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO24b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO24f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO24f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO24s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO24s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO26b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO26b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO26f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO26f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO26s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO26s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO27b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO27b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO27f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO27f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO27s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO27s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO28b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO28b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO28f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO28f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO28s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO28s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO30b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO30b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO30f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO30f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO30s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO30s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO32b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO32b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO32f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO32f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO32s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO32s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO33b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO33b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO33f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO33f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO33s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO33s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO34b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO34b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO34f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO34f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO34s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO34s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO35b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO35b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO35f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO35f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO35s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO35s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO36b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO36b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO36f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO36f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO36s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO36s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO38b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO38b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO38f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO38f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO38s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO38s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO39b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO39b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO39f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO39f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO39s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO39s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO40b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO40b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO40f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO40f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO40s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO40s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO41b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO41b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO41f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO41f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO41s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO41s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO42b' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO42b'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO42f' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO42f'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+- code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label 'SAXSISO42s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO42s'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+_container_command_str: code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing
+  sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label '{p[sub]}' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-{p[sub]}'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+_dataset_id: 790fde35-d1e0-4390-978f-928c7f1fe9fa
+_extra_inputs: &id001
+- code/containers/images/bids/bids-fmriprep--20.2.3.sing
+_extra_inputs_array:
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+_head: d35ac554c274d56a597e629d56e67dee5d61fa84
+_inputs_array:
+- - sourcedata/ds003242/sub-SAXSISO01b
+- - sourcedata/ds003242/sub-SAXSISO01f
+- - sourcedata/ds003242/sub-SAXSISO01s
+- - sourcedata/ds003242/sub-SAXSISO02b
+- - sourcedata/ds003242/sub-SAXSISO02f
+- - sourcedata/ds003242/sub-SAXSISO02s
+- - sourcedata/ds003242/sub-SAXSISO03b
+- - sourcedata/ds003242/sub-SAXSISO03f
+- - sourcedata/ds003242/sub-SAXSISO03s
+- - sourcedata/ds003242/sub-SAXSISO04b
+- - sourcedata/ds003242/sub-SAXSISO04f
+- - sourcedata/ds003242/sub-SAXSISO04s
+- - sourcedata/ds003242/sub-SAXSISO08b
+- - sourcedata/ds003242/sub-SAXSISO08f
+- - sourcedata/ds003242/sub-SAXSISO08s
+- - sourcedata/ds003242/sub-SAXSISO09b
+- - sourcedata/ds003242/sub-SAXSISO09f
+- - sourcedata/ds003242/sub-SAXSISO09s
+- - sourcedata/ds003242/sub-SAXSISO10b
+- - sourcedata/ds003242/sub-SAXSISO10f
+- - sourcedata/ds003242/sub-SAXSISO10s
+- - sourcedata/ds003242/sub-SAXSISO11b
+- - sourcedata/ds003242/sub-SAXSISO11f
+- - sourcedata/ds003242/sub-SAXSISO11s
+- - sourcedata/ds003242/sub-SAXSISO12b
+- - sourcedata/ds003242/sub-SAXSISO12f
+- - sourcedata/ds003242/sub-SAXSISO12s
+- - sourcedata/ds003242/sub-SAXSISO13b
+- - sourcedata/ds003242/sub-SAXSISO13f
+- - sourcedata/ds003242/sub-SAXSISO13s
+- - sourcedata/ds003242/sub-SAXSISO14b
+- - sourcedata/ds003242/sub-SAXSISO14f
+- - sourcedata/ds003242/sub-SAXSISO14s
+- - sourcedata/ds003242/sub-SAXSISO15b
+- - sourcedata/ds003242/sub-SAXSISO15f
+- - sourcedata/ds003242/sub-SAXSISO15s
+- - sourcedata/ds003242/sub-SAXSISO17b
+- - sourcedata/ds003242/sub-SAXSISO17f
+- - sourcedata/ds003242/sub-SAXSISO17s
+- - sourcedata/ds003242/sub-SAXSISO18b
+- - sourcedata/ds003242/sub-SAXSISO18f
+- - sourcedata/ds003242/sub-SAXSISO18s
+- - sourcedata/ds003242/sub-SAXSISO19b
+- - sourcedata/ds003242/sub-SAXSISO19f
+- - sourcedata/ds003242/sub-SAXSISO19s
+- - sourcedata/ds003242/sub-SAXSISO21b
+- - sourcedata/ds003242/sub-SAXSISO21f
+- - sourcedata/ds003242/sub-SAXSISO21s
+- - sourcedata/ds003242/sub-SAXSISO22b
+- - sourcedata/ds003242/sub-SAXSISO22f
+- - sourcedata/ds003242/sub-SAXSISO22s
+- - sourcedata/ds003242/sub-SAXSISO24b
+- - sourcedata/ds003242/sub-SAXSISO24f
+- - sourcedata/ds003242/sub-SAXSISO24s
+- - sourcedata/ds003242/sub-SAXSISO26b
+- - sourcedata/ds003242/sub-SAXSISO26f
+- - sourcedata/ds003242/sub-SAXSISO26s
+- - sourcedata/ds003242/sub-SAXSISO27b
+- - sourcedata/ds003242/sub-SAXSISO27f
+- - sourcedata/ds003242/sub-SAXSISO27s
+- - sourcedata/ds003242/sub-SAXSISO28b
+- - sourcedata/ds003242/sub-SAXSISO28f
+- - sourcedata/ds003242/sub-SAXSISO28s
+- - sourcedata/ds003242/sub-SAXSISO30b
+- - sourcedata/ds003242/sub-SAXSISO30f
+- - sourcedata/ds003242/sub-SAXSISO30s
+- - sourcedata/ds003242/sub-SAXSISO32b
+- - sourcedata/ds003242/sub-SAXSISO32f
+- - sourcedata/ds003242/sub-SAXSISO32s
+- - sourcedata/ds003242/sub-SAXSISO33b
+- - sourcedata/ds003242/sub-SAXSISO33f
+- - sourcedata/ds003242/sub-SAXSISO33s
+- - sourcedata/ds003242/sub-SAXSISO34b
+- - sourcedata/ds003242/sub-SAXSISO34f
+- - sourcedata/ds003242/sub-SAXSISO34s
+- - sourcedata/ds003242/sub-SAXSISO35b
+- - sourcedata/ds003242/sub-SAXSISO35f
+- - sourcedata/ds003242/sub-SAXSISO35s
+- - sourcedata/ds003242/sub-SAXSISO36b
+- - sourcedata/ds003242/sub-SAXSISO36f
+- - sourcedata/ds003242/sub-SAXSISO36s
+- - sourcedata/ds003242/sub-SAXSISO38b
+- - sourcedata/ds003242/sub-SAXSISO38f
+- - sourcedata/ds003242/sub-SAXSISO38s
+- - sourcedata/ds003242/sub-SAXSISO39b
+- - sourcedata/ds003242/sub-SAXSISO39f
+- - sourcedata/ds003242/sub-SAXSISO39s
+- - sourcedata/ds003242/sub-SAXSISO40b
+- - sourcedata/ds003242/sub-SAXSISO40f
+- - sourcedata/ds003242/sub-SAXSISO40s
+- - sourcedata/ds003242/sub-SAXSISO41b
+- - sourcedata/ds003242/sub-SAXSISO41f
+- - sourcedata/ds003242/sub-SAXSISO41s
+- - sourcedata/ds003242/sub-SAXSISO42b
+- - sourcedata/ds003242/sub-SAXSISO42f
+- - sourcedata/ds003242/sub-SAXSISO42s
+_jobid: 20210813-120713-9acc
+_meta_directory: /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep/.reproman/jobs/local/20210813-120713-9acc
+_meta_directory_rel: .reproman/jobs/local/20210813-120713-9acc
+_num_subjobs: 96
+_outputs_array:
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+_reproman_version: 0.4.1
+_resolved_batch_parameters:
+- sub: SAXSISO01b
+- sub: SAXSISO01f
+- sub: SAXSISO01s
+- sub: SAXSISO02b
+- sub: SAXSISO02f
+- sub: SAXSISO02s
+- sub: SAXSISO03b
+- sub: SAXSISO03f
+- sub: SAXSISO03s
+- sub: SAXSISO04b
+- sub: SAXSISO04f
+- sub: SAXSISO04s
+- sub: SAXSISO08b
+- sub: SAXSISO08f
+- sub: SAXSISO08s
+- sub: SAXSISO09b
+- sub: SAXSISO09f
+- sub: SAXSISO09s
+- sub: SAXSISO10b
+- sub: SAXSISO10f
+- sub: SAXSISO10s
+- sub: SAXSISO11b
+- sub: SAXSISO11f
+- sub: SAXSISO11s
+- sub: SAXSISO12b
+- sub: SAXSISO12f
+- sub: SAXSISO12s
+- sub: SAXSISO13b
+- sub: SAXSISO13f
+- sub: SAXSISO13s
+- sub: SAXSISO14b
+- sub: SAXSISO14f
+- sub: SAXSISO14s
+- sub: SAXSISO15b
+- sub: SAXSISO15f
+- sub: SAXSISO15s
+- sub: SAXSISO17b
+- sub: SAXSISO17f
+- sub: SAXSISO17s
+- sub: SAXSISO18b
+- sub: SAXSISO18f
+- sub: SAXSISO18s
+- sub: SAXSISO19b
+- sub: SAXSISO19f
+- sub: SAXSISO19s
+- sub: SAXSISO21b
+- sub: SAXSISO21f
+- sub: SAXSISO21s
+- sub: SAXSISO22b
+- sub: SAXSISO22f
+- sub: SAXSISO22s
+- sub: SAXSISO24b
+- sub: SAXSISO24f
+- sub: SAXSISO24s
+- sub: SAXSISO26b
+- sub: SAXSISO26f
+- sub: SAXSISO26s
+- sub: SAXSISO27b
+- sub: SAXSISO27f
+- sub: SAXSISO27s
+- sub: SAXSISO28b
+- sub: SAXSISO28f
+- sub: SAXSISO28s
+- sub: SAXSISO30b
+- sub: SAXSISO30f
+- sub: SAXSISO30s
+- sub: SAXSISO32b
+- sub: SAXSISO32f
+- sub: SAXSISO32s
+- sub: SAXSISO33b
+- sub: SAXSISO33f
+- sub: SAXSISO33s
+- sub: SAXSISO34b
+- sub: SAXSISO34f
+- sub: SAXSISO34s
+- sub: SAXSISO35b
+- sub: SAXSISO35f
+- sub: SAXSISO35s
+- sub: SAXSISO36b
+- sub: SAXSISO36f
+- sub: SAXSISO36s
+- sub: SAXSISO38b
+- sub: SAXSISO38f
+- sub: SAXSISO38s
+- sub: SAXSISO39b
+- sub: SAXSISO39f
+- sub: SAXSISO39s
+- sub: SAXSISO40b
+- sub: SAXSISO40f
+- sub: SAXSISO40s
+- sub: SAXSISO41b
+- sub: SAXSISO41f
+- sub: SAXSISO41s
+- sub: SAXSISO42b
+- sub: SAXSISO42f
+- sub: SAXSISO42s
+_resolved_command_str: sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+  participant --participant-label '{p[sub]}' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-{p[sub]}'
+  -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14
+  --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt
+  --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor
+  --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+_spec_version: '1.0'
+_submission_id: null
+batch_parameters:
+- sub=SAXSISO01b,SAXSISO01f,SAXSISO01s,SAXSISO02b,SAXSISO02f,SAXSISO02s,SAXSISO03b,SAXSISO03f,SAXSISO03s,SAXSISO04b,SAXSISO04f,SAXSISO04s,SAXSISO08b,SAXSISO08f,SAXSISO08s,SAXSISO09b,SAXSISO09f,SAXSISO09s,SAXSISO10b,SAXSISO10f,SAXSISO10s,SAXSISO11b,SAXSISO11f,SAXSISO11s,SAXSISO12b,SAXSISO12f,SAXSISO12s,SAXSISO13b,SAXSISO13f,SAXSISO13s,SAXSISO14b,SAXSISO14f,SAXSISO14s,SAXSISO15b,SAXSISO15f,SAXSISO15s,SAXSISO17b,SAXSISO17f,SAXSISO17s,SAXSISO18b,SAXSISO18f,SAXSISO18s,SAXSISO19b,SAXSISO19f,SAXSISO19s,SAXSISO21b,SAXSISO21f,SAXSISO21s,SAXSISO22b,SAXSISO22f,SAXSISO22s,SAXSISO24b,SAXSISO24f,SAXSISO24s,SAXSISO26b,SAXSISO26f,SAXSISO26s,SAXSISO27b,SAXSISO27f,SAXSISO27s,SAXSISO28b,SAXSISO28f,SAXSISO28s,SAXSISO30b,SAXSISO30f,SAXSISO30s,SAXSISO32b,SAXSISO32f,SAXSISO32s,SAXSISO33b,SAXSISO33f,SAXSISO33s,SAXSISO34b,SAXSISO34f,SAXSISO34s,SAXSISO35b,SAXSISO35f,SAXSISO35s,SAXSISO36b,SAXSISO36f,SAXSISO36s,SAXSISO38b,SAXSISO38f,SAXSISO38s,SAXSISO39b,SAXSISO39f,SAXSISO39s,SAXSISO40b,SAXSISO40f,SAXSISO40s,SAXSISO41b,SAXSISO41f,SAXSISO41s,SAXSISO42b,SAXSISO42f,SAXSISO42s
+command:
+- sourcedata/ds003242
+- /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+- participant
+- --participant-label
+- '{p[sub]}'
+- -w
+- /scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-{p[sub]}
+- -vv
+- --output-spaces
+- MNI152NLin2009cAsym:res-2
+- anat
+- func
+- fsaverage5
+- --nthreads
+- '14'
+- --omp-nthreads
+- '7'
+- --skip-bids-validation
+- --notrack
+- --fs-license-file
+- /home1/03201/jbwexler/.freesurfer.txt
+- --use-aroma
+- --ignore
+- slicetiming
+- --output-layout
+- bids
+- --cifti-output
+- --resource-monitor
+- --skull-strip-t1w
+- force
+- --use-syn-sdc
+- --mem_mb
+- '38400'
+- --bids-database-dir
+- /tmp
+container: code/containers/bids-fmriprep
+inputs:
+- sourcedata/ds003242/sub-{p[sub]}
+launcher: 'true'
+local_directory: /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+num_nodes: '24'
+num_processes: '96'
+orchestrator: datalad-no-remote
+outputs:
+- .
+queue: normal
+resource_id: bc1235e8-b28c-11eb-bce1-e4434b618f52
+resource_name: local
+root_directory: /home1/03201/jbwexler/.reproman/run-root
+submitter: slurm
+walltime: '48:00:00'
+working_directory: /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep

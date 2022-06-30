@@ -1,1 +1,13 @@
-../../../../.git/annex/objects/ZW/84/MD5E-s1558--a20e5f1a5501aea3cfcb7c929683b4f5.71/MD5E-s1558--a20e5f1a5501aea3cfcb7c929683b4f5.71
+[ReproMan] pre-command...
+[ReproMan] executing command code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-fmriprep--20.2.3.sing sourcedata/ds003242 /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep participant --participant-label 'SAXSISO33s' -w '/scratch1/03201/jbwexler/work_dir/fmriprep//ds003242_sub-SAXSISO33s' -vv --output-spaces MNI152NLin2009cAsym:res-2 anat func fsaverage5 --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file /home1/03201/jbwexler/.freesurfer.txt --use-aroma --ignore slicetiming --output-layout bids --cifti-output --resource-monitor --skull-strip-t1w force --use-syn-sdc --mem_mb 38400 --bids-database-dir /tmp
+[ReproMan] ... within /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep
+210825-09:21:54,155 nipype.workflow IMPORTANT:
+	 
+    Running fMRIPREP version 20.2.3:
+      * BIDS dataset path: /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep/sourcedata/ds003242.
+      * Participant list: ['SAXSISO33s'].
+      * Run identifier: 20210825-092039_aabe5e47-1cfc-40bc-9862-464b824c253f.
+      * Output spaces: MNI152NLin2009cAsym:res-2 anat func fsaverage:den-10k.
+      * Pre-run FreeSurfer's SUBJECTS_DIR: /scratch1/03201/jbwexler/openneuro_derivatives_tests/derivatives/fmriprep/ds003242-fmriprep/sourcedata/freesurfer.
+210825-09:22:04,134 nipype.workflow INFO:
+	 No single-band-reference found for sub-SAXSISO33s_task-CIC_run-001_bold.nii.gz.
